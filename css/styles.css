@@ -148,3 +148,24 @@ a {
 .uldreamteam .listitemdreamteam {
   background-color: var(--WHITE, #fff);
 }
+
+/* section Our Portfolio */
+.ulportfolio .titleportfolio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.ulportfolio .ultextportfolio {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
