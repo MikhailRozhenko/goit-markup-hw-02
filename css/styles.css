@@ -1,9 +1,8 @@
 /* body */
 body {
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 ul {
@@ -14,15 +13,14 @@ a {
   text-decoration: none;
 }
 /* header */
-.web-span {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
+.header-link {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.54px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .studio-span {
@@ -31,7 +29,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.1;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -80,9 +78,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  border-radius: 4px;
   background-color: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
@@ -121,7 +117,7 @@ a {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -201,9 +197,7 @@ a {
 
 .button-title:hover,
 .button-title:active {
-  border-radius: 4px;
   background-color: #404bbf;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button-text:hover {
