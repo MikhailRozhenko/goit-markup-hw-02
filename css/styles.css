@@ -167,6 +167,10 @@ a {
 
 /* section Our Portfolio */
 
+.ul-portfolio .photo-portfolio {
+  text-align: center;
+}
+
 .title-section-portfolio {
   line-height: 1.11;
   text-align: center;
