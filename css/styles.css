@@ -82,7 +82,23 @@ a {
   cursor: pointer;
 }
 
+.gheader-adres {
+  font-style: normal;
+}
+
 /* section advantages*/
+
+.strong-advantages {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
 .ul-advantages .title-advantages {
   color: #2e2f42;
   font-family: Roboto;
@@ -149,6 +165,15 @@ a {
 }
 
 /* section Our Portfolio */
+
+.title-section-portfolio {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .ul-portfolio .title-portfolio {
   color: #2e2f42;
   font-family: Roboto;
@@ -204,7 +229,8 @@ a {
   color: #fff;
 }
 
-.ul-header .ul-header-link:hover {
+.ul-header .ul-header-link:hover,
+.ul-header .ul-header-link:focus {
   color: #404bbf;
   font-family: Roboto;
   font-size: 16px;
@@ -214,9 +240,20 @@ a {
   letter-spacing: 0.32px;
 }
 
-.ul-adress .ul-adress-link:hover {
+.ul-adress .ul-adress-link:hover,
+.ul-adress .ul-adress-link:focus {
   color: #404bbf;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.footer-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
